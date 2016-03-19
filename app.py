@@ -1,5 +1,4 @@
-from flask import Flask, render_template, request, redirect
-#, Quandl
+from flask import Flask, render_template, request, redirect, Quandl
 
 app = Flask(__name__)
 
