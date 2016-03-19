@@ -23,4 +23,5 @@ def graph():
     return render_template('graph.html', script=script, div=div, ticker=symbol)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
+    app.run(port=33507)
+#    app.run(host='0.0.0.0', debug=True)
